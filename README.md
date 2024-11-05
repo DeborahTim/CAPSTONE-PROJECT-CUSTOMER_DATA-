@@ -4,6 +4,13 @@
 
 This project entails the analysis of customer data for a subscription service, aiming to identify various segments and trends. The goal is to understand customer behavior, evaluate different subscription types, and pinpoint key patterns in cancellations and renewals. The final output will be a Power BI dashboard showcasing the findings.
 
+## Basic statistical data 
+Total Revenue : 67.5 Million
+Average Revenue : 1999
+Average Duration : 365.35
+Total Customer : 33787
+Total Order : 33787
+
 ## Column Descriptions
 
 CustomerID: A distinct identifier for each customer, ensuring unique tracking.
