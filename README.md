@@ -4,7 +4,7 @@
 
 This project entails the analysis of customer data for a subscription service, aiming to identify various segments and trends. The goal is to understand customer behavior, evaluate different subscription types, and pinpoint key patterns in cancellations and renewals. The final output will be a Power BI dashboard showcasing the findings.
 
-##Column Descriptions
+## Column Descriptions
 
 CustomerID: A distinct identifier for each customer, ensuring unique tracking.
 
@@ -30,7 +30,7 @@ Subscription Duration: The length (in days) of the subscription period from star
 - Power Bi
 
 
-##Data Cleaning and Preparation
+## Data Cleaning and Preparation
 
 In this phase, we undertake several critical actions:
 
