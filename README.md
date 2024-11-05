@@ -1,13 +1,21 @@
 # CAPSTONE-PROJECT-CUSTOMER_DATA-
 
 [Project overview](#project-overview)
+
 [Basic statistical data](#Basic-statistical-data)
+
 [Data Collection](#Data-Collection)
+
 [Tool Used](#Tool-Used)
+
 [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-[Column Descriptions)(#Column-Descriptions)
+
+[Column Descriptions](#Column-Descriptions).
+
 [Data Cleaning and Preparation](#Data-Cleaning-and-Preparation)
+
 [Data Analysis and Insight Generation](#Data-Analysis-and-Insight-Generation)
+
 [SQL Query](#SQL-Query)
 
 ## Project Overview 
