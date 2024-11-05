@@ -70,6 +70,50 @@ In this phase, we undertake several critical actions:
 This Visualization reveals some intriguing patterns and trend from understanding customer behavior, tracking subscription types, and identifying key trends in cancellations and renewals of the various subcription types available in the company.
 
 SUBSCRIPTION TREND : Subscription numbers showed fluctuations over time, monnthly, quarterly and yearly. There was a steady flow of revenue monthly until it declined in the month of september, it droped from 6.75 Million in August to 3.37 Million in September. Quarterly, there was a steady trend from the first to the second quarter but by the third quarter it declined from 20 Million to 16 Million and to 10 MIllion by the forth quarter. And finally yearly, from 2022 to 2023 there was a decline from 40 Million to 27 Million. This implies the purchases decline after a period of time. RECOMMENDATION : Increase marketing efforts during peak periods to capitalize on natural customer interest. And introduce targeted promotions and membership discounts during slower periods to encourage new sign-ups.
+Sql 2 project( Based on Capstone Customer Data)
+
+```
+Select  region, count(distinct Customerid) as total_customers 
+from [dbo]
+Group by region;
+```
+```
+Select top 1 subscriptiontype, count(distinct customerid) as total_customers
+From [dbo]
+Group by subscriptiontype 
+Order by total_customers desc;
+```
+```
+Select customerid,
+From [dbo]
+Where datadiff(month, subscriptionstart, subscriptionend) <= 6;
+```
+```
+Select avg(datediff(day, subscriptionstart, subscriptionend)) as avg_subscription_duration
+From [dbo]
+```
+```
+Select customerid
+From [dbo]
+Where datediff(month, subscriptionstart  subscriptionend) > 12;
+```
+
+```
+Select subscriptiontype,
+Sum(revenue) as total_revenue 
+From [dbo]
+Group by subscriptiontype;
+```
+
+```
+Select top 3 region,
+Count(*) as subscriptionend_count
+From [dbo]
+Where subscriptionend is null
+Group by region
+Order by subscriptionend_count desc;
+```
+
 
 
 
