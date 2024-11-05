@@ -19,6 +19,19 @@ The data used was collected and complied through transaction logging. This ensur
 - Microsoft Excel
 - SQL
 - Power Bi
+
+## EXPLORATORY DATA ANALYSIS (EDA)
+
+After cleaning the data in Excel and creating pivot tables, it was exported to SQL for deeper analysis and then to Power BI for dashboard creation.
+
+1. Descriptive Statistics: Excel calculated average and total sales by region and product, while SQL queries provided insights into total revenue and monthly sales. Power BI displayed key metrics like total revenue and average sales through summary cards.
+
+
+2. Data Filtering and Segmentation: Excel's filtering and pivot tables enabled segmentation by region and product, uncovering targeted insights. SQL used WHERE and GROUP BY clauses for specific filtering, while Power BI utilized slicers for dynamic analysis by region and year.
+
+
+3. Dashboard Creation: Excel's pivot tables structured summaries for dynamic updates. SQL aggregated data served as a foundation for dashboards, ensuring integration with other tools. Power BI’s interactive dashboards offered real-time insights with slicers for in-depth analysis of customer and product dimensions.
+
   
 ## Column Descriptions
 
