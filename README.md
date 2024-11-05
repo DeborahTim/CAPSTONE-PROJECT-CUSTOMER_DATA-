@@ -11,7 +11,7 @@ Average Duration : 365.35
 Total Customer : 33787
 Total Order : 33787
 
-Data Collection
+## Data Collection
 The data used was collected and complied through transaction logging. This ensures that the dataset represents an accurate record of customer interactions and purchasing patterns over a year and eight months.
 
 
