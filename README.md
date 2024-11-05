@@ -11,6 +11,15 @@ Average Duration : 365.35
 Total Customer : 33787
 Total Order : 33787
 
+Data Collection
+The data used was collected and complied through transaction logging. This ensures that the dataset represents an accurate record of customer interactions and purchasing patterns over a year and eight months.
+
+
+## Tools Used
+- Microsoft Excel
+- SQL
+- Power Bi
+  
 ## Column Descriptions
 
 CustomerID: A distinct identifier for each customer, ensuring unique tracking.
@@ -30,12 +39,6 @@ Canceled: A boolean indicator showing whether the subscription has been terminat
 Revenue: The total revenue attributed to the customer's subscription.
 
 Subscription Duration: The length (in days) of the subscription period from start to end.
-
-## Tools Used
-- Microsoft Excel
-- SQL
-- Power Bi
-
 
 ## Data Cleaning and Preparation
 
